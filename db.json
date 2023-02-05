@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "DacrimaStudio Site",
-      "budget": "120",
+      "budget": "1250",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
@@ -55,27 +55,14 @@
       "id": 4
     },
     {
-      "name": "Site Wagner",
-      "budget": "1350",
+      "name": "Carolina Logo",
+      "budget": "1200",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "3",
+        "name": "Design"
       },
-      "cost": 850,
-      "services": [
-        {
-          "name": "Desenvolvidor",
-          "cost": "500",
-          "description": "Backend",
-          "id": "266d437e-b27d-4b45-b3a9-e34c35b0dafe"
-        },
-        {
-          "name": "Dev Junior",
-          "cost": "350",
-          "description": "FrontEnd",
-          "id": "9b05d073-9943-4d47-9e14-9c9c4e3ee4b3"
-        }
-      ],
+      "cost": 0,
+      "services": [],
       "id": 5
     }
   ],

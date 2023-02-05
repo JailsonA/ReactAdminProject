@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import Input from '../form/Input.js';
 import Select from '../form/Select.js';
 import SubmitButton from '../form/SubmitButton.js';
-import style from './ProjectForm.module.css';
 
 
 function ProjectForm({ handleSubmit, btnText, projectData }) {
@@ -25,7 +24,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
 
   const submit = (e) => {
     e.preventDefault()
-   // console.log(project);
+    // console.log(project);
     handleSubmit(project)
   }
 
@@ -45,33 +44,46 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
 
   /* retorno do jsx */
   return (
-    <form onSubmit={submit} className={style.form}>
-      <Input
-        type="text"
-        text="Nome do projeto"
-        name="name"
-        placeholder="Insira nome do projeto"
-        handleOnChange={handleChange}
-        value={project.name ? project.name : ''}
-      />
-      <Input
-        type="number"
-        text="Orçamento do projeto"
-        name="budget"
-        placeholder="Insira o orçamento total"
-        handleOnChange={handleChange}
-        value={project.budget ? project.budget : ''}
-      />
-      <Select 
-        name="category_id" 
-        text="Selecione a categoria" 
-        options={categories}  
-        handleOnChange={handleCategory}
-        value={project.category ? project.category.id : ''}
-      />
-      <SubmitButton text={btnText} />
+    <form onSubmit={submit} >
+      <div className="card-body">
+        <Input
+          className="form-control"
+          type="text"
+          text="Nome do projeto"
+          name="name"
+          placeholder="Insira nome do projeto"
+          handleOnChange={handleChange}
+          value={project.name ? project.name : ''}
+        />
+        <Input
+          className="form-control"
+          type="number"
+          text="Orçamento do projeto"
+          name="budget"
+          placeholder="Insira o orçamento total"
+          handleOnChange={handleChange}
+          value={project.budget ? project.budget : ''}
+        />
+        <Select
+          name="category_id"
+          text="Selecione a categoria"
+          options={categories}
+          handleOnChange={handleCategory}
+          value={project.category ? project.category.id : ''}
+        />
+        <br />
+        <div className="row">
+          <div className="col-4">
+            <SubmitButton text={btnText} className="btn btn-success" />
+          </div>
+        </div>
+      </div>
     </form>
   );
 }
 
 export default ProjectForm;
+
+
+
+

@@ -1,7 +1,7 @@
-import style from "./Container.module.css";
+
 function Container(props) {
   return (
-    <div className={`${style.container} ${style[props.customClass]}`}>
+    <div>
       {props.children}
     </div>
   );
