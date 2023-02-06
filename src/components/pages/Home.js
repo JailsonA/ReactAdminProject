@@ -1193,6 +1193,12 @@ function Home() {
                   synth. Cosby sweater eu banh mi, qui irure terr.
                 </p>
                 <br />
+                <div className="text-left">
+                    <a className="btn btn-sm bg-info" to="">
+                    <i className="fas fa-pencil-alt" /> Editar
+                  </a>
+                </div>
+                <br />
                 <div className="text-muted">
                   <p className="text-sm">
                     Client Company
