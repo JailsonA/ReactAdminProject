@@ -55,15 +55,26 @@
       "id": 4
     },
     {
-      "name": "Carolina Logo",
-      "budget": "1200",
+      "name": "Prosegur",
+      "budget": "1300",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "4",
+        "name": "Planejamento"
       },
       "cost": 0,
       "services": [],
       "id": 5
+    },
+    {
+      "name": "Esegur",
+      "budget": "560",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 6
     }
   ],
   "categories": [

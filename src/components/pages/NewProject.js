@@ -41,7 +41,7 @@ function NewProject() {
             <div className="col-sm-6">
               <ol className="breadcrumb float-sm-right">
                 <li className="breadcrumb-item">
-                  <a href="#">Home</a>
+                  <a href="#">Dashboard</a>
                 </li>
                 <li className="breadcrumb-item active">Criar Projeto</li>
               </ol>

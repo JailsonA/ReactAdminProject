@@ -1,23 +1,13 @@
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-import style from "./Footer.module.css";
 
 function Footer() {
   return (
-    <footer className={style.footer}>
-      <ul className={style.social_list}>
-        <li>
-          <FaFacebook />
-        </li>
-        <li>
-          <FaInstagram />
-        </li>
-        <li>
-          <FaLinkedin />
-        </li>
-      </ul>
-      <p className={style.copy_right}>
-        By <span>Janilson Andrade</span> © 2023
-      </p>
+    <footer class="main-footer">
+      <strong>Copyright &copy; 2023 <a href="#">Cost</a>.</strong>
+      All rights reserved.
+      <div class="float-right d-none d-sm-inline-block">
+        <b>Version</b> 1.0
+      </div>
     </footer>
   );
 }
