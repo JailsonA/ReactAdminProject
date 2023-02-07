@@ -2,18 +2,24 @@
   "projects": [
     {
       "name": "DacrimaStudio Site",
-      "budget": "1250",
+      "budget": "1500",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 120,
+      "cost": 320,
       "services": [
         {
           "name": "logotipo",
           "cost": "120",
           "description": "Backend",
           "id": "cffe1ed8-044f-4ece-a981-0053c43fdfa5"
+        },
+        {
+          "name": "TelAdvir - Logotipo",
+          "cost": "200",
+          "description": "design",
+          "id": "fee16ead-c44f-4263-8881-d5a815f05bb7"
         }
       ],
       "id": 1
